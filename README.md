@@ -19,7 +19,7 @@
 不知道从哪开始？下面任选一句，复制发给你的 AI 就能用：
 
 ```text
-用 publish-precheck 审一下这篇口播稿能不能发抖音：（贴上稿子）
+用 yuwen-publish-precheck 审一下这篇口播稿能不能发抖音：（贴上稿子）
 ```
 
 ```text
@@ -45,13 +45,13 @@
 把下面这句发给 Cursor、Codex、Claude Code 或其他支持 Agent Skills 的工具：
 
 ```text
-请安装这个 skill：https://github.com/yuwen-cool/publish-precheck.git
+请安装这个 skill：https://github.com/yuwen-cool/yuwen-publish-precheck.git
 ```
 
 或手动克隆到技能目录：
 
 ```bash
-git clone https://github.com/yuwen-cool/publish-precheck.git ~/.cursor/skills/publish-precheck
+git clone https://github.com/yuwen-cool/yuwen-publish-precheck.git ~/.cursor/skills/yuwen-publish-precheck
 ```
 
 零依赖（仅需 Python 3）。
