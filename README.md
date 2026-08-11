@@ -1,7 +1,8 @@
 # yuwen-publish-precheck｜发布前审
 
 <p>
-<img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-green" alt="License: CC BY-NC 4.0">
+<img src="https://img.shields.io/badge/License-MIT-green" alt="License: MIT">
+<a href="https://github.com/yuwen-cool/yuwen-publish-precheck/actions/workflows/ci.yml"><img src="https://github.com/yuwen-cool/yuwen-publish-precheck/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
 <img src="https://img.shields.io/badge/依赖-仅需%20Python%203-blue" alt="Python 3">
 <img src="https://img.shields.io/badge/平台-抖音%20·%20小红书%20·%20视频号-orange" alt="平台">
 <img src="https://img.shields.io/badge/规则依据-72%20条官方原文引文-8A2BE2" alt="规则依据">
@@ -153,12 +154,12 @@ git clone https://github.com/yuwen-cool/yuwen-publish-precheck.git ~/.cursor/ski
 
 发现误报/漏报、想要新平台或新行业规则、有踩坑经验想贡献——开 issue 说人话就行，见 [CONTRIBUTING.md](CONTRIBUTING.md)。每条真实反馈都可能变成下个版本的规则，更新记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+安全问题请通过私密渠道报告，见 [SECURITY.md](SECURITY.md)。
+
 ## License
 
-[CC BY-NC 4.0](LICENSE)（全仓库统一）：
+本项目原创的代码、文档、规则表述、模板和测试采用 [MIT License](LICENSE)，允许使用、修改、分发和商业使用，但需保留许可证与版权声明。
 
-- **分发、转载、修改**：可以，但**必须署名**注明来自本项目；
-- **商业性使用**（集成进对外产品/服务、转售、打包进收费工具或课程）：需先联系作者取得同意；
-- **对使用者的明确豁免**：用本工具审核**你自己创作的内容**，无论内容本身是否商业性质（带货、广告、卖课都算你自己的内容），永远免费、无需授权。挡的是转售集成，不挡使用。
+仓库引用的法律法规、监管文件和平台规则原文不因收录而重新授权，详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
 © 2026 yuwen-cool

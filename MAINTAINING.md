@@ -20,7 +20,7 @@
 2. **数据文件格式向后兼容**：my-rules.md 的表格列、expressions.md 的分区、词库的行格式——只能加列/加区，不能改名或删列；scan.py 解析必须继续兼容旧格式（参考现有的四列/五列兼容写法）；
 3. **data/ 的路径约定不挪**：用户的文件就在那些位置，换目录名 = 老用户的沉淀全部失联。
 
-## 三、发布一次更新的标准流程（5 步）
+## 三、发布一次更新的标准流程（7 步）
 
 在日用副本改完后：
 
@@ -38,8 +38,13 @@ cd ~/Desktop/coding/yuwen-publish-precheck && python3 evals/test_scan.py
 # 4. 检查即将公开的内容（看一眼有没有不该出现的文件/改动）
 git status && git diff --stat
 
-# 5. 更新 CHANGELOG.md 版本号和变更说明，然后提交推送
-git add -A && git commit -m "版本说明" && git push
+# 5. 更新 CHANGELOG.md 版本号和变更说明，在独立分支提交并推送
+git switch -c release/vX.Y.Z
+git add -A && git commit -m "发布 vX.Y.Z" && git push -u origin release/vX.Y.Z
+
+# 6. 创建 PR，等待 GitHub Actions CI 通过后合并
+
+# 7. 从合并后的默认分支提交创建 vX.Y.Z tag 和 GitHub Release
 ```
 
 不会敲命令就把这份文件发给 AI，说"按维护手册发布这次更新"。
@@ -50,6 +55,9 @@ git add -A && git commit -m "版本说明" && git push
 - [ ] `git status` 里没有 data/ 下的文件（除 README）
 - [ ] `git diff` 里没有个人信息、绝对路径、密钥
 - [ ] CHANGELOG 写了这次改了什么
+- [ ] GitHub Actions CI 已通过
+- [ ] 安全相关变更已按 SECURITY.md 的边界复核
+- [ ] GitHub Release 对应的是合并后的默认分支提交
 - [ ] 改了规则内容的：规则要点能追溯到官方来源（重大规则变更建议先走上游 video-rules 规则库的回归再生成）
 
 ## 五、常见问题
