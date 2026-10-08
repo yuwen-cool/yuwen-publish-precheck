@@ -168,7 +168,7 @@ git clone https://github.com/yuwen-cool/yuwen-publish-precheck.git ~/.cursor/ski
 
 ## License
 
-本项目原创的代码、文档、规则表述、模板和测试采用 [MIT License](LICENSE)，允许使用、修改、分发和商业使用，但需保留许可证与版权声明。
+本项目原创的代码、文档、规则表述、模板和测试采用 [MIT License](LICENSE.md)，允许使用、修改、分发和商业使用，但需保留许可证与版权声明。
 
 仓库引用的法律法规、监管文件和平台规则原文不因收录而重新授权，详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
