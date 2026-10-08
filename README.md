@@ -9,6 +9,8 @@
 <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen" alt="PRs Welcome">
 </p>
 
+由 **余温** 维护 · [Twitter / X](https://x.com/gkxspace) · [GitHub](https://github.com/yuwen-cool)
+
 > 发抖音、小红书、微信视频号之前，先让 AI 帮你审一遍：**能不能发、哪句有问题、怎么改**——并且把你踩过的坑记住，越用越准。
 
 做内容的人都困在同一个死循环里：**选题平淡没流量，选题劲爆就违规**。而平台不会在发布前告诉你哪里会出问题，等它提醒你的时候，已经是违规通知了。
@@ -155,6 +157,14 @@ git clone https://github.com/yuwen-cool/yuwen-publish-precheck.git ~/.cursor/ski
 发现误报/漏报、想要新平台或新行业规则、有踩坑经验想贡献——开 issue 说人话就行，见 [CONTRIBUTING.md](CONTRIBUTING.md)。每条真实反馈都可能变成下个版本的规则，更新记录见 [CHANGELOG.md](CHANGELOG.md)。
 
 安全问题请通过私密渠道报告，见 [SECURITY.md](SECURITY.md)。
+
+## 作者与联系
+
+我是 **余温**，这个项目由我维护。欢迎关注、交流，也欢迎分享你的使用反馈。
+
+- **关注动态、交流想法**：[Twitter / X · @gkxspace](https://x.com/gkxspace)
+- **查看更多开源项目**：[GitHub · yuwen-cool](https://github.com/yuwen-cool)
+- **反馈问题、提出建议**：[项目 Issues](https://github.com/yuwen-cool/yuwen-publish-precheck/issues)
 
 ## License
 
